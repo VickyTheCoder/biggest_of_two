@@ -5,5 +5,7 @@ n2 = int(n2)
 
 if n1 > n2:
     print(n1, "is biggest")
-else:
+elif n2 > n1:
     print(n2, "is biggest") 
+else:
+    print("Both are equal")
